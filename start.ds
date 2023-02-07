@@ -1,6 +1,6 @@
 #!/bin/bash
 #source .env
-PATH=$PATH:~/.local/bin
-export PATH
+#PATH=$PATH:~/.local/bin
+#export PATH
 
 gunicorn -c config/gunicorn.py --error-logfile logs/error.log --access-logfile logs/access.log config.wsgi
