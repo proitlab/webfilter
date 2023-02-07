@@ -9,6 +9,7 @@ admin.site.site_title = 'Saltis WebFilter'
 admin.site.index_title = 'Saltis WebFilter'
 
 urlpatterns = [
+    path('', include('landing.urls')),
     path('admin/', admin.site.urls),
     path('webfilters/', include('webfilters.urls')),
 ]

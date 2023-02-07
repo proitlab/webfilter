@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'jazzmin',
     'custom_accounts',
     'webfilters',
+    'landing',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
